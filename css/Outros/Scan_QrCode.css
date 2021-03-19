@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+height:100%;
+
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    justify-content: space-evenly;
+    
+    height:93%;
+    
+}
+
+img {
+    position: relative;
+    align-self: center;
+    width: 20%;
+
+}
+
+a {
+    display: block;
+    position:relative;
+    border: .1rem solid black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+    align-self: center;
+    
+}

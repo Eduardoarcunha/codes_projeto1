@@ -9,8 +9,25 @@ body {
 }
 
 main{
+    height: 80%;
+    position: relative;
+    margin: 2rem 14rem 2rem ;
+}
 
-    height:80%;
+button{
+    font-size: 1rem;
+}
+
+input{
+    font-size: 1rem;
+
+}
+
+a.filtro {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    text-decoration: none;
 }
 
 header {
@@ -23,6 +40,12 @@ header {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
+
+
 a.qr {
     display: block;
     margin: 1rem;
@@ -32,7 +55,7 @@ a.qr {
     background-size: 2rem 2rem;
     background-repeat: no-repeat;
     background-position: 1rem 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: .5rem;
 }

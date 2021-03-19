@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    height: 80%;
+}
+
+main{
+
+    height:80%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;
+    font-size: 2rem;
+}
+
+a.qr {
+    display: block;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 4rem;
+    background-image: url("https://via.placeholder.com/150");
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}

@@ -16,11 +16,14 @@
         <main>
 
             <h2>Party:</h2>
+
             <ul class = one>
                 <li class = one>
-                    <li2> <label for="radio-Aberta"><input type="radio" id = "radio-Aberta" name="tipo" >Aberta</label></li2>
-                        
-                    <li2><label for="radio-Fechada"><input type="radio" id = "radio-Fechada" name="tipo" >Fechada</label></li2>
+                    <ul class = inside>
+                        <li class = inside> <label for="radio-Aberta"><input type="radio" id = "radio-Aberta" name="tipo" >Aberta</label></li>
+                            
+                        <li class = inside><label for="radio-Fechada"><input type="radio" id = "radio-Fechada" name="tipo" >Fechada</label></li>
+                    </ul>
                 </li>
             </ul>
 
@@ -29,14 +32,18 @@
 
             <ul class = one>
                 <li class = one>
-
-                <li2><label for="radio-Hamburguer"><input type="radio" id = "radio-Hamburguer" name="comida" >Hamburguer</label></li2>
                     
-                <li2><label for="radio-Macarrao"><input type="radio" id = "radio-Macarrao" name="comida" >Macarrao</label></li2>
+                    <ul class = inside>
 
-                <li2><label for="radio-Vegano"><input type="radio" id = "radio-Vegano" name="comida" >Vegano</label></li2>
+                        <li class = inside><label for="radio-Hamburguer"><input type="radio" id = "radio-Hamburguer" name="comida" >Hamburguer</label></li>
+                            
+                        <li class = inside><label for="radio-Macarrao"><input type="radio" id = "radio-Macarrao" name="comida" >Macarrao</label></li>
 
-                <li2><label for="radio-Outros"><input type="radio" id = "radio-Outros" name="comida" >Outros</label></li2>
+                        <li class = inside><label for="radio-Vegano"><input type="radio" id = "radio-Vegano" name="comida" >Vegano</label></li>
+
+                        <li class = inside><label for="radio-Outros"><input type="radio" id = "radio-Outros" name="comida" >Outros</label></li>
+
+                    </ul>
                 
                 </li>
 
@@ -44,9 +51,9 @@
                 
 
             <ul class = two>
-                <li><input type="text" id="txtconfirmar" placeholder="Número de Pessoas ..."/><button id="btnConfirmar">Confirmar</button></li>
+                <li class = inside><input type="text" id="txtconfirmar" placeholder="Número de Pessoas ..."/><button id="btnConfirmar">Confirmar</button></li>
 
-                <li><input type="text" id="txtAdicionar" placeholder="Usuario..."/><button id="btnAdicionar">Adicionar</button></li>
+                <li class = inside><input type="text" id="txtAdicionar" placeholder="Usuario..."/><button id="btnAdicionar">Adicionar</button></li>
             </ul>
 
         </main>

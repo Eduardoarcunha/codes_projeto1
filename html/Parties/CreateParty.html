@@ -3,38 +3,51 @@
     <head>
         <title> Eatogether </title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/Parties/CreateParty.css">
+        
     </head>
     <body>
         <header>
-        <h1> Deliver Parties </h1>
+        <h1> Delivery Parties </h1>
         </header>
 
         <main>
 
-           <fieldset> 
-                <h2>Party:</h2>
-                <label for="radio-Aberta"><input type="radio" id = "radio-Aberta" name="tipo" >Aberta</label>
+            <h2>Party:</h2>
+            <ul class = one>
+                <li class = one>
+                    <li2> <label for="radio-Aberta"><input type="radio" id = "radio-Aberta" name="tipo" >Aberta</label></li2>
+                        
+                    <li2><label for="radio-Fechada"><input type="radio" id = "radio-Fechada" name="tipo" >Fechada</label></li2>
+                </li>
+            </ul>
+
+
+            <h2>Tipo:</h2>
+
+            <ul class = one>
+                <li class = one>
+
+                <li2><label for="radio-Hamburguer"><input type="radio" id = "radio-Hamburguer" name="comida" >Hamburguer</label></li2>
+                    
+                <li2><label for="radio-Macarrao"><input type="radio" id = "radio-Macarrao" name="comida" >Macarrao</label></li2>
+
+                <li2><label for="radio-Vegano"><input type="radio" id = "radio-Vegano" name="comida" >Vegano</label></li2>
+
+                <li2><label for="radio-Outros"><input type="radio" id = "radio-Outros" name="comida" >Outros</label></li2>
                 
-                <label for="radio-Fechada"><input type="radio" id = "radio-Fechada" name="tipo" >Fechada</label>
+                </li>
 
-
-                <h2>Tipo:</h2>
-                <label for="radio-Hamburguer"><input type="radio" id = "radio-Hamburguer" name="comida" >Hamburguer</label>
+            </ul>
                 
-                <label for="radio-Macarrao"><input type="radio" id = "radio-Macarrao" name="comida" >Macarrao</label>
 
-                <label for="radio-Vegano"><input type="radio" id = "radio-Vegano" name="comida" >Vegano</label>
+            <ul class = two>
+                <li><input type="text" id="txtconfirmar" placeholder="Número de Pessoas ..."/><button id="btnConfirmar">Confirmar</button></li>
 
-                <label for="radio-Outros"><input type="radio" id = "radio-Outros" name="comida" >Outros</label>
-                
-            </fieldset> <br>
-
-            <input type="text" id="txtconfirmar" placeholder="Número de Pessoas ..."/><button id="btnConfirmar">Confirmar</button> <br>
-
-
-
-            <br> <input type="text" id="txtAdicionar" placeholder="Usuario..."/><button id="btnAdicionar">Adicionar</button>
-
+                <li><input type="text" id="txtAdicionar" placeholder="Usuario..."/><button id="btnAdicionar">Adicionar</button></li>
+            </ul>
 
         </main>
 

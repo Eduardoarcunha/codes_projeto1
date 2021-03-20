@@ -3,33 +3,9 @@ html {
     height: 100%;
 }
 
-body {
-    background-color: white;
-    height: 80%;
-}
-
-main{
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    bottom: 10rem;
-}
-
-button{
-    font-size: 1rem;
-}
-
-input{
-    font-size: 1rem;
-
-}
-
-a.filtro {
-    font-size: 1.5rem;
-    text-decoration: none;
+body {    
+    
+    height: 100%;
 }
 
 header {
@@ -40,24 +16,55 @@ header {
     height: 3rem;
     border-bottom: .1rem solid black;
     font-size: 2rem;
+    font-weight: bold   ;
 }
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 80%;
+    bottom: 10rem;
+}
+
+button, input{
+    font-size: 1rem;
+}
+
+li.filtro{
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+a.filtro {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
 
 h3 {
     font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
 }
 
+    
 
 
 a.qr {
     display: block;
     margin: 1rem;
     border: .1rem solid black;
-    padding: 1rem 1rem 1rem 4rem;
-    background-image: url("https://via.placeholder.com/150");
-    background-size: 2rem 2rem;
-    background-repeat: no-repeat;
-    background-position: 1rem 1rem;
+    padding: 1rem;
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: .5rem;
+    align-self: center;
+    text-align: center;
 }

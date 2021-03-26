@@ -14,8 +14,9 @@ main{
 }
 
 body {
-    background-color: white;
+    background-color:#F5F0EB;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -24,13 +25,16 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .2rem solid#3F3E3E;
     font-size: 2rem;
     font-weight: bold;
+    background-color:#9C050B;
+    color: white;
+    
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -51,4 +55,7 @@ li{
     padding: 1rem 6.5rem 1rem 6.5rem;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    background-color:#F5F0EB;
+
 }

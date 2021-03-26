@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -16,11 +17,21 @@ header {
     background-color:#9C050B;
 }
 
+header img{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
+    
+}
+
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height:80%;
+    height:90%;
+    margin-top: 15%;
+    align-items: center;
     
 }
 
@@ -28,8 +39,11 @@ main{
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    align-self: center; 
     color: #3F3E3E;
+    margin-bottom: 3rem;
+
+
+    
 
 }
 
@@ -40,19 +54,24 @@ p {
     margin-bottom: 2rem;
     margin-top: 2rem;
     color: #A6A29F;
-
 }
+
+
 
 .p1{
     color: #ea1d2c;
 }
 
 iframe {
-
-    width:100%
+    display: flex;
+    max-width: 20rem;
+    max-height: 20rem;
+    align-self: center;
+    width:100%;
+    border-bottom: .15rem solid black;
     
     
-    }
+}
 
 
 body {
@@ -60,23 +79,6 @@ body {
     background-color: #F5F0EB;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
 
 
-}
-
-a {
-    display: block;
-    position:relative;
-    padding: 0.1rem;
-    border: 0.15rem solid #3F3E3E;
-    text-decoration: none;
-    border-radius: .5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #3F3E3E;
-        
-}
     

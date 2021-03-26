@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -10,8 +11,10 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
-    font-size: 3rem;
+    border-bottom: .2rem solid#3F3E3E;
+    font-size: 2rem;
+    color: white;
+    background-color:#9C050B;
 
 }
 

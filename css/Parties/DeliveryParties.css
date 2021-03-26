@@ -14,9 +14,10 @@ main{
 }
 
 body {
-    background-color: white;
     height: 100%;
     width: 100%;
+    background-color: #F5F0EB;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header h1{
@@ -29,6 +30,9 @@ header h1{
     text-align: center;
     justify-content: center;
     font-weight: bold;
+    color: white;
+    background-color: #9C050B;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header h2{
@@ -38,6 +42,8 @@ header h2{
     align-items: center;
     height: 3rem;
     font-size: 1.5rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -69,4 +75,3 @@ a {
     font-size: 2rem;
     text-decoration: none;
 }
-

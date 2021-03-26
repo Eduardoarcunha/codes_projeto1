@@ -4,12 +4,14 @@ html {
 }
 
 body {
-    height: 100%;
+    height: 80%;
+    background-color: #9C050B;
 }
 
 main{
 
-    height:80%;
+    height:100%;
+    background-color: #9C050B;
 }   
 
 header {
@@ -18,23 +20,41 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #9C050B;
+    border-bottom: .15rem solid #A6A29F;
+    height: 8%;
+    
+
 }
 
 a {
     display: block;
     margin: 1.5rem;
-    border: .1rem solid black;
+    border: .2rem solid #A6A29F;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
     border-radius: .5rem;
     width: 50%;
     text-align: center;
+    color: #3F3E3E;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F0EB;
+    font-weight: bold;
+    
     
 }
+
+a:active {
+    color: #3F3E3E;
+    background-color:#A6A29F;
+    font-size: 2rem;
+}
+
 
 ul {
 
@@ -50,4 +70,9 @@ li {
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer {
+    height:20%;
+    background-color: black;
 }

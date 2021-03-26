@@ -17,6 +17,8 @@ main{
 body {
     background-color: white;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F0EB;
 }
 
 header {
@@ -25,9 +27,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .2rem solid#3F3E3E;
     font-size: 2rem;
     font-weight: bold;
+    background-color:#9C050B;
+    color: white;
 }
 
 img{
@@ -43,6 +47,8 @@ h2{
 
 a{
     text-decoration: none;
+    font-weight: bold;
+    color: #3F3E3E;
 }
 
 li{
@@ -52,4 +58,5 @@ li{
     text-align: center;
     border: 0.1rem solid black;
     padding: 1rem 1rem 0.5rem 1rem;
+    background-color: white;
 }

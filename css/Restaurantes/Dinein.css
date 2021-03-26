@@ -4,8 +4,9 @@ html {
 }
 
 body {    
-    
     height: 100%;
+    background-color:#F5F0EB;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -14,9 +15,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .2rem solid #3F3E3E;
     font-size: 2rem;
-    font-weight: bold   ;
+    font-weight: bold;
+    background-color:#9C050B;
+    color: white;
 }
 
 main{
@@ -44,6 +47,7 @@ li.filtro{
 a.filtro {
     font-size: 1.5rem;
     text-decoration: none;
+    color: black;
 }
 
 
@@ -67,4 +71,6 @@ a.qr {
     border-radius: .5rem;
     align-self: center;
     text-align: center;
+    background-color: white;
+    color: black;
 }

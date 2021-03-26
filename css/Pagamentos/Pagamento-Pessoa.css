@@ -10,51 +10,49 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #3F3E3E;
     font-size: 2rem;
     font-weight: bold;
+    color: white;
+    background-color: #9C050B;
+    font-family: 'Open Sans', sans-serif;
 }
-body{
-height: 100%;
 
+body{
+    height: 100%;
+    background-color: #F5F0EB;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     height:80%;
-    
 }
 
 ul {
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100%; 
     position: relative;
     justify-content: space-between;
-
 }
 
 li {
     display:flex;
     flex-direction: column;
     position:relative
-
 }   
 
 p {
-
     display:flex;
     flex-direction: column;
     position:absolute;
     font-size: 1.2rem;
     left: 6.5rem;
     top:1rem;
-    
 }
 
 img {

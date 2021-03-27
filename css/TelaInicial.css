@@ -19,40 +19,32 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: #9C050B;
-    border-bottom: .15rem solid #A6A29F;
-    height: 8%;
-    
+    height: 13rem;
+    text-shadow:.3rem .3rem #3F3E3E;
 
 }
+
 
 a {
     display: block;
     margin: 1.5rem;
-    border: .2rem solid #A6A29F;
-    padding: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
+    padding: .5rem;
     font-size: 2rem;
     text-decoration: none;
-    border-radius: .5rem;
-    width: 50%;
+    border-radius: 5rem;
+    width: 65%;
     text-align: center;
     color: #3F3E3E;
     font-family: 'Open Sans', sans-serif;
     background-color: #F5F0EB;
     font-weight: bold;
     
-    
-}
-
-a:active {
-    color: #3F3E3E;
-    background-color:#A6A29F;
-    font-size: 2rem;
 }
 
 
@@ -60,7 +52,6 @@ ul {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     height: 100%; 
 
 }
@@ -70,9 +61,8 @@ li {
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
+
 }
 
-footer {
-    height:20%;
-    background-color: black;
-}
+

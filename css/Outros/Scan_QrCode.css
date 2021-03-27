@@ -1,17 +1,18 @@
 html {
     font-size: 16px;
     height: 100%;
+    background-image:url(../../img/RestauranteQR.png);
 }
 
 body{
 height:100%;
 font-family: 'Open Sans', sans-serif;
-background-color: #F5F0EB;
+/* background-color: rgba(0, 0, 0, .8); */
 
 }
 
 
-header {
+/* header {
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,7 +23,7 @@ header {
     font-weight: bold;
     background-color:#9C050B;
     color: white;
-}
+} */
 
 main{
     display: flex;
@@ -40,6 +41,11 @@ img {
     align-self: center;
     max-width: 45%;
     height: auto;
+    border-radius: 1rem;
+    padding: 5rem;
+    fill: black;
+    
+    
 
 }
 

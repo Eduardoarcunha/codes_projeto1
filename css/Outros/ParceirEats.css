@@ -18,6 +18,35 @@ header {
 
 }
 
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
+}
+ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%; 
+    margin-top: 20%;
+
+
+}
+
+li {
+
+    display:flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    margin: 1rem;
+    background-color: #F5F0EB;
+    border-radius: 1rem;
+    box-shadow:3px 3px 3px #A6A29F;
+}
 
 body {
     height: 100%;
@@ -60,20 +89,14 @@ p {
 
 img {
     position: absolute;
-    top: 0;
-    left: 1rem;
+    top: 0.5rem;
+    left: .7rem;
     width: 5.5rem;
+    justify-content: space-evenly;
 }
 
 
-
-footer{
-    display: flex;
-    justify-content: center;
-    position:relative;
-    top:2rem;
-}
-a {
+/* a {
     display: block;
     position:relative;
     padding: 0.3rem;
@@ -85,4 +108,4 @@ a {
     text-align: center;
     font-size: 2rem;
         
-}
+} */

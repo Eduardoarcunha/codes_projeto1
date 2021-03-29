@@ -15,7 +15,7 @@ main{
 }
 
 body {
-    background-color: white;
+    background-color: #F5F0EB;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     background-color: #F5F0EB;
@@ -32,6 +32,15 @@ header {
     font-weight: bold;
     background-color:#9C050B;
     color: white;
+}
+
+
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }
 
 img{
@@ -56,7 +65,9 @@ li{
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     padding: 1rem 1rem 0.5rem 1rem;
     background-color: white;
 }

@@ -17,6 +17,7 @@ main{
     align-items: center;
     height:80%;
     font-size: 1.2rem;
+    top: 2rem;
 }
 
 
@@ -46,16 +47,23 @@ h2{
     color: black;
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
+
+    position: relative;
+    top:1rem;
 
 }
 
-img{
+.img_menu {
     position: absolute;
-    top: 10rem;
+    top: 6rem;
     height: 40%;
     max-width:95%;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
 }
 
 footer{
@@ -66,12 +74,22 @@ footer{
 }
 
 .button{
-    position: absolute;
+    position: relative;
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
     text-decoration: none;
     color: black;
-    margin-bottom: 2rem;
+    top: 27rem;
+}
+
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }

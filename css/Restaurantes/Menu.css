@@ -43,9 +43,22 @@ a {
     color: black;
 }
 
-ul.outside{
+.outside{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.outsideu{
+    position: relative;
+    margin-top: 4rem;
+}
+
+.insideu{
+    position: relative;
+    margin-left: 1rem;
 }

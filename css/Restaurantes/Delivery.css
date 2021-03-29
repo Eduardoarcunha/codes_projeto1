@@ -23,11 +23,12 @@ body {
 header {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .2rem solid#3F3E3E;
-    font-size: 2rem;
+    border-bottom: .1rem solid#3F3E3E;
+    font-size: 1.5rem;
     font-weight: bold;
     background-color:#9C050B;
     color: white;
@@ -40,6 +41,7 @@ h2 {
     font-size: 1.5rem;
     align-items: center;
     margin-top: 1rem;
+    font-weight: bold;
     
 }
 ul {
@@ -66,9 +68,8 @@ a {
     text-decoration: none;
     width: 100%;
     text-align: center;
-    font-size: 2rem;
-    color: black;
-    
+    font-size: 1.5rem;
+    color: black;  
 }
 
 main img{
@@ -77,10 +78,22 @@ main img{
     max-height: 9rem;
     width: auto;
     height: auto;
-    border-radius: .5rem;
-    border: 0.15rem solid black;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     align-items: center;
 }
 
+.criar{
+    color: #EA1D2C;
+    font-size: 1.5rem;
 
 
+}
+
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
+}

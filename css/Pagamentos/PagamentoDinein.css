@@ -35,6 +35,11 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
+.Forma{
+    position: relative;
+    left: 1rem;
+     
+}
 img{
     height: 30%;
 }
@@ -46,7 +51,9 @@ h2{
 }
 
 p, fieldset{
-    border: 0.1rem solid black;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:3px 3px 3px #A6A29F;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -58,10 +65,19 @@ legend{
 .button{
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color: white ;
+    border-radius: 1rem;
+    box-shadow:3px 3px 3px #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
     text-decoration: none;
     color: black;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+}
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }

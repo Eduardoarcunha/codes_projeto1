@@ -30,17 +30,30 @@ main{
     align-items: center;
     position: relative;
     height: 80%;
-    bottom: 10rem;
+    
 }
 
 button, input{
     font-size: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
+}
+
+ul {
+    position: relative;
+    
 }
 
 li.filtro{
 
     text-align: center;
     font-weight: bold;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
+    padding: 1rem;
+    margin: 3rem;
 
 }
 
@@ -52,25 +65,18 @@ a.filtro {
 
 
 
-h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: bold;
+.Arrow {
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }
 
-    
-
-
-a.qr {
-    display: block;
-    margin: 1rem;
-    border: .1rem solid black;
-    padding: 1rem;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border-radius: .5rem;
-    align-self: center;
-    text-align: center;
-    background-color: white;
-    color: black;
+.QR{
+    position:absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: .4rem;
+    right: .4rem;
 }

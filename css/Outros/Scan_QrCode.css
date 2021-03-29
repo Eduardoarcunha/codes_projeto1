@@ -1,66 +1,62 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
     background-image:url(../../img/RestauranteQR.png);
 }
 
 body{
 height:100%;
 font-family: 'Open Sans', sans-serif;
-/* background-color: rgba(0, 0, 0, .8); */
+
 
 }
 
-
-/* header {
+header {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    border-bottom: .1rem solid black;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color:#9C050B;
     color: white;
-} */
+    height: 3rem;
+}
 
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position:relative;
-    justify-content: space-evenly;
-    
-    height:93%;
-    
+    color:white;
+    position: absolute;
+    align-items: center;
+    height: 100%;
 }
 
-img {
+p{
     position: relative;
-    align-self: center;
-    max-width: 45%;
-    height: auto;
-    border-radius: 1rem;
-    padding: 5rem;
-    fill: black;
-    
-    
-
+    bottom: 12rem;
+    left: 5rem;
+    font-size: 0.8rem;
 }
 
-a {
-    display: block;
-    position:relative;
-    border: .1rem solid black;
-    font-size: 1.5rem;
+.Arrow {
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
+}
+
+    
+.Scan {
     text-decoration: none;
-    border-radius: .5rem;
-    text-align: center;
-    font-size: 2rem;
-    width: 50%;
-    align-self: center;
-    background-color: white;
-    color: black;
-    
-}
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    color: #ea1d2c;
+} 
+
+
+
+
+

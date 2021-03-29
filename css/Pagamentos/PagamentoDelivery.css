@@ -1,6 +1,8 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #3F3E3E;
 }
 
 main{
@@ -38,27 +40,44 @@ header {
 h2{
     font-weight: bold;
     font-size: 1.3rem;
-    border: 0.1rem solid black;
+
     padding: 1rem 1rem 1rem 1rem;
     margin-top: 2rem;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem #A6A29F;
 }
 
 fieldset{
-    border: 0.1rem solid black;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem #A6A29F;
     padding: 1rem 1rem 1rem 1rem;
 }
 
 legend{
     font-weight: bold;
+    color: #3F3E3E;
 }
 
 .button{
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
     text-decoration: none;
     color: black;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }

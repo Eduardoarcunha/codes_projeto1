@@ -44,6 +44,7 @@ header h2{
     font-size: 1.5rem;
     color: black;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 ul {
@@ -64,9 +65,10 @@ li {
     justify-content: center;
     width: 80%;
     margin: 1.5rem;
-    border: .1rem solid black;
     padding: 1rem 1rem 1rem 1rem;
-    border-radius: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     
 
 }
@@ -74,4 +76,11 @@ a {
     color:black;
     font-size: 2rem;
     text-decoration: none;
+}
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }

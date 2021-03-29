@@ -48,7 +48,9 @@ h2{
     color: black;
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
 
 }
@@ -83,9 +85,23 @@ footer{
     position: absolute;
     display: block;
     text-align: center;
-    border: 0.1rem solid black;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
     padding: 1rem 6.5rem 1rem 6.5rem;
     text-decoration: none;
     color: black;
     margin-bottom: 2rem;
+}
+iframe{
+    border-radius: 1rem;
+    
+}
+
+.Arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
 }
